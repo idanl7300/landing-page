@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Assistant', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #ffb3c1;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff6680;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+header .cta-button:hover {
+  background: #ff4665;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+section#about ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section#about ul li {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+section#gallery .images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+section#gallery img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  text-align: right;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #ff6680;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #ff4665;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+  margin-top: 20px;
+}
+
+
+.logo {
+  width: 300px; /* רוחב הלוגו */
+  height: auto; /* התאמה אוטומטית לגובה */
+  display: block; /* מאפשר יישור */
+  margin: 0 auto 20px; /* מרכז את הלוגו ומוסיף מרווח */
+}
+
